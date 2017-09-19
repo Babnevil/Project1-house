@@ -21,8 +21,8 @@ public class Square
     public Square()
     {
         size = 60;
-        xPosition = 310;
-        yPosition = 120;
+        xPosition = 0;
+        yPosition = 0;
         color = "red";
         isVisible = false;
     }
@@ -157,7 +157,7 @@ public class Square
 
     /**
      * Change the color. Valid colors are "red", "yellow", "blue", "green",
-     * "magenta" and "black".
+     * "magenta", "grey", forrest, and "black".
      */
     public void changeColor(String newColor)
     {

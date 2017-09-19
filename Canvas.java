@@ -135,13 +135,22 @@ public class Canvas
             graphic.setColor(new Color(255, 230, 0));
         }
         else if(colorString.equals("green")) {
-            graphic.setColor(new Color(80, 160, 60));
+            graphic.setColor(new Color(107, 255, 94));
+        }
+        else if(colorString.equals("forrest")) {
+            graphic.setColor(new Color(1, 102, 29));
         }
         else if(colorString.equals("magenta")) {
             graphic.setColor(Color.magenta);
         }
         else if(colorString.equals("white")) {
             graphic.setColor(Color.white);
+        }
+        else if(colorString.equals("grey")){
+            graphic.setColor(new Color(77, 77, 51));
+        }
+        else if(colorString.equals("brown")){
+            graphic.setColor(new Color(66, 31, 1));
         }
         else {
             graphic.setColor(Color.black);
@@ -167,7 +176,7 @@ public class Canvas
     }
 
     /**
-     * Redraw ell shapes currently on the Canvas.
+     * Redraw all shapes currently on the Canvas.
      */
     private void redraw()
     {
